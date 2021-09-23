@@ -14,24 +14,24 @@ Friede's Great Scythe (NG+29)
 Spear (NG+30)
 
 # Unknown NG
-Bandit's Knife
-Lothric Knight Sword
-Irithyll Straight Sword
-Claymore
-Executioner's Greatsword
-Astora Greatsword
-Storm Curved Sword
-Dancer's Enchanted Swords
-Rapier
-Crow Quills
-Uchigatana
-Washing Pole
-Chaos Blade
-Onikiri and Ubadachi
-Club
-Large Club
-Great Club
-Drang Twinspears
-Great Scythe
-Caestus
-Claw
+Bandit's Knife (NG+)
+Lothric Knight Sword (NG+)
+Irithyll Straight Sword (NG+)
+Claymore (NG+)
+Executioner's Greatsword (NG+)
+Astora Greatsword (NG+)
+Storm Curved Sword (NG+)
+Dancer's Enchanted Swords (NG+)
+Rapier (NG+)
+Crow Quills (NG+)
+Uchigatana (NG+)
+Washing Pole (NG+)
+Chaos Blade (NG+)
+Onikiri and Ubadachi (NG+)
+Club (NG+)
+Large Club (NG+)
+Great Club (NG+)
+Drang Twinspears (NG+)
+Great Scythe (NG+)
+Caestus (NG+)
+Claw (NG+)
