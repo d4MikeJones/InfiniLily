@@ -1,5 +1,4 @@
-# Format: <weapon_name> (NG<+X>) - <nickname>[#d]
-# Adding #d to end will create an entry of shame.
+# Format: <weapon_name> (NG<+X>)
 # No typos in weapon names allowed.
 
 Sellsword Twinblades (NG)

@@ -60,7 +60,7 @@ function init()
     for (var entry of all)
     {
       if (entry.charAt(0) == "#") continue;
-      var edata = /(.*) \((NG\+?[0-9]*)\) - (.*)(#d)?/.exec(entry);
+      var edata = /(.*) \((NG\+?[0-9]*)\)/.exec(entry);
       if (!edata)
       {
         if (entry.trim().length != 0) console.warn("Invalid entry: \"" + entry + "\"");
