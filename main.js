@@ -32,26 +32,6 @@ function init()
   document.getElementById("filter_switch").addEventListener("click", switchFilter);
   document.getElementById("clearFilter").addEventListener("click", clearFilter);
   
-  var faces = [
-    'angery.png', 'ayaya.png',       'blush.png',
-    'cat.png',    'cheffkiss.png',   'concern.png',
-    'cool.png',   'cult.png',        'd.png',
-    'dog.gif',    'dread.png',       'gasm.png',
-    'gnome.png',  'hands.png',       'happy.png',
-    'hiyo.png',   'huh.png',         'hypers.png',
-    'kek.png',    'mad.png',         'nerd.png',
-    'nice.png',   'notlikedecc.png', 'oof.png',
-    'pain.png',   'pensive.png',     'pog.gif',
-    'pray.png',   's.png',           'shrug.png',
-    'shrug2.png', 'smile.png',       'smug.png',
-    'sun.png',    'tac.png',         'test.png',
-    'think.png',  'what.png',        'woah.png',
-    'wow.png'
-  ];
-  var currFace = document.querySelector(".face");
-  currFace.src = "res/faces/" + faces[Math.floor(Math.random() * faces.length)];
-  currFace.classList.add("active");
-  
   fetch("runs.txt", { cache: "no-cache" }).then(function(resp) {
     if (resp.ok)
     {

@@ -22,7 +22,6 @@ This work was made under public domain with exception of used acces which are be
 
 * Fonts downloaded from [dafont.com](https://www.dafont.com/optimusprinceps.font)
 * Top-level backdrop image was taken from [Dark Souls 3 Fextralife wiki](http://darksouls3.wiki.fextralife.com/)
-* res/faces folder contains sub emoticons from [xDecc](https://www.twitch.tv/xdecc) twitch channel.
 * `icon_filter.png` and `icon_trash.png` forms taken from [FontAwesome](https://fontawesome.com) with texturing from Dark Souls 3.
 * All other images taken from Dark Souls 3 game files, refer to next section for list of modifications.
 
