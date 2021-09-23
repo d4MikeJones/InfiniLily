@@ -74,8 +74,8 @@ function init()
       }
       var result = {
         weapon: weapon,
-        finished: edata[3].indexOf("#d") == -1,
-        user: (edata[3]||"").replace(/_/g, " _ "), // Fix Optimus font underscore
+        finished: true, // finished: edata[3].indexOf("#d") == -1,
+        // user: (edata[3]||"").replace(/_/g, " _ "), // Fix Optimus font underscore
         ng: edata[2]
       };
       if (!weapon.attempts) weapon.attempts = [];
@@ -93,7 +93,7 @@ function init()
       
       var div = document.createElement("div");
       div.classList.add("attempt");
-      div.textContent = result.user + " (" + result.ng + (result.finished ? ")" : ", died)");
+      div.textContent = "(" + result.ng + ")";
       wdiv.appendChild(div);
       finished.push(result);
       
