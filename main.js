@@ -81,7 +81,7 @@ function init()
       if (!weapon.attempts) weapon.attempts = [];
       weapon.attempts.push(result);
       
-      if (!result.finished) result.user = result.user.substr(0, result.user.length-2);
+      // if (!result.finished) result.user = result.user.substr(0, result.user.length-2);
       var wdiv = document.getElementById(weapon.id);
       if (result.finished && !wdiv.classList.contains("finished"))
       {
@@ -288,10 +288,6 @@ function updateFilter(e)
   function filterScan(w)
   {
     if (w.name.toLowerCase().indexOf(v) != -1) return true;
-    if (w.attempts)
-    {
-      for (var att of w.attempts) if (att.user.toLowerCase().indexOf(v) != -1) return true;
-    }
   }
   
   v = v.toLowerCase();
