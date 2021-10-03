@@ -185,7 +185,7 @@ function goUp(e)
 
 function isHigherNG(currentMax, newRun)
 {
-  var c = 'NG+' == current ? 1 : (parseInt(current.slice(2)) || 0);
+  var c = 'NG+' == currentMax ? 1 : (parseInt(currentMax.slice(2)) || 0);
   var n = 'NG+' == newRun ? 1 : (parseInt(newRun.slice(2)) || 0);
   return n > c;
 }
