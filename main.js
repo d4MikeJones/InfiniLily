@@ -88,7 +88,7 @@ function init()
         weapon.finished = true;
         wdiv.classList.add("finished");
         total++;
-        if (result.ng > maxNG) maxNG = result.ng;
+        if (isHigherNG(maxNG, result.ng)) maxNG = result.ng;
       }
       
       var div = document.createElement("div");
@@ -181,6 +181,13 @@ function showCategory(category)
 function goUp(e)
 {
   window.scrollTo({ top: 0, left: 0, behavior: "smooth"});
+}
+
+function isHigherNG(currentMax, newRun)
+{
+  var c = 'NG+' == current ? 1 : (parseInt(current.slice(2)) || 0);
+  var n = 'NG+' == newRun ? 1 : (parseInt(newRun.slice(2)) || 0);
+  return n > c;
 }
 
 /* Filtering */
