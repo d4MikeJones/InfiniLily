@@ -37,4 +37,6 @@ Butcher Knife (NG+32)
 Vordt's Great Hammer (NG+33)
 Lucerne (NG+34)
 Darkdrift (NG+35)
-# Warden Twinblades (NG+36)
+Warden Twinblades (NG+36)
+# Dragonslayer Greataxe (NG+37)
+
