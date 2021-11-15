@@ -38,5 +38,5 @@ Vordt's Great Hammer (NG+33)
 Lucerne (NG+34)
 Darkdrift (NG+35)
 Warden Twinblades (NG+36)
-# Dragonslayer Greataxe (NG+37)
-
+Dragonslayer Greataxe (NG+37)
+# Frayed Blade (NG+38)
