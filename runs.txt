@@ -70,3 +70,5 @@ Shortsword (NG+65)
 Yhorm's Great Machete (NG+66)
 Mace (NG+67)
 Broadsword (NG+68)
+# Nice
+Notched Whip (NG+69)
