@@ -73,3 +73,4 @@ Broadsword (NG+68)
 # Nice
 Notched Whip (NG+69)
 Zweihander (NG+70)
+Lothric's Holy Sword (NG+71)
